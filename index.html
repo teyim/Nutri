@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="health,food,recipe,nutrition,meal">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="your one stop shop to nutritions facts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutri-your one stop shop to nutritional facts</title>
+    <link rel="shortcut icon" href="./assets/images/icons8_avocado.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+ 
+    <header>
+    <nav class="container">
+        <div class="logo-info">
+            <a href="#"><img class="logo" src="./assets/images/NUTRI-removebg-preview.png" alt="logo image"></a> 
+        </div>
+      <div class="nav-info">
+         <a href="https://developer.nutritionix.com"><button>More</button></a>
+      </div>
+     </nav>
+     <div class="main-header-elements">
+       <div class="header-elements">
+         <div>
+             <h1  style="font-weight: 700;">Instant Nutritional Facts</h1>
+             <h2 style="font-weight: 200;">Get instant nutritional facts <br> of food items,meals etc</h2>
+         </div>
+       <input type="text" id="textarea">
+          <div class="submit-section">
+           <a href="#middle-section"><button type="button">SEARCH</button></a> 
+          </div>
+        </div>
+        <div class="food-image hide">
+          <img src="./assets/images/fast_food.svg" alt="">
+        </div>
+      </div>
+     </header>
+     <div class="loadingmodal hide" id="loadingmodal">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+    <div class="init-middle-section">
+      <div class="heading">
+        <h2 style="color: #0aaf5fe1;margin-bottom: 0;">How It Works?</h2>
+        <h3 class="font_margin" >Nutri is very easy to use and gives u fast nutritional results based on your search</h3>
+    </div>
+      <div class="how-to">
+      <div>
+        <img src="./assets/images/typewriter_with_paper.svg" alt="" style="width: 25%; margin: auto;">
+        <h3 class="font_margin" style="font-weight: 400;">Enter an Item or natural text</h3>
+        <p class="font_margin" style="text-align:center";>Enter items you want to search,<br>
+          with a new item concaternated by the word "and"</p>
+      </div>
+      <div>
+        <img src="./assets/images/search.svg" alt="" style="width: 25%; margin: auto;">
+        <h3 class="font_margin" style="font-weight: 500;">Search Item</h3>
+        <p class="font_margin" style="text-align:center";>Search for desired food item or meal e.g <br>"2 eggs and 1 fish" etc</p>
+      </div>
+      <div>
+        <img src="./assets/images/check_document.svg" alt="" style="width: 25%; margin: auto;">
+        <h3 class="font_margin" style="font-weight: 500;">Get fast Nutrition results</h3>
+        <p class="font_margin" style="text-align:center";>get instant results from high level Ai networks</p>
+      </div>
+    </div>
+    </div>
+
+     <div class="middle-section hide" id="middle-section">
+       <div class="table">
+        <table>
+          
+            </table>
+      
+      </div>
+     
+       <div class="card">
+          
+       </div>
+       </div>
+<footer>
+ <img src="./assets/images/NUTRI-removebg-preview.png" alt="logo image" style="width: 12rem;margin-bottom: 0;">
+ <h3><img src="./assets/images/waving_hand_emoji.svg" alt="hand-image"  style="width: 1.4rem">  
+  Hi there,this website was developed by <a href="https://github.com/teyim">Teyim Asobo</a></h3>
+  <p style="font-weight: 300;margin-top:0;">created by Teyim using nutritionix Api</p>
+</footer>     
+
+</body>
+<script src="./assets/scripts/main.js" ></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
